@@ -1,0 +1,12 @@
+action (Dog_search) {
+  type(Search)
+  description (A search for dogs)
+  
+  collect {
+    input (breed) {
+      type (Dog_text)
+      min (Optional) max (One)
+    }
+  }
+  output (Dog_struct)
+}

@@ -10,4 +10,17 @@ capsule {
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
   }
+
+   store-sections {
+    section (ArtAndLifestyle)
+  }
+
+  capsule-imports {
+   import (viv.core) {
+     as (core)
+   }
+   import (viv.image) {
+     as (image) version (2.12.5)
+   }
+  }
 }

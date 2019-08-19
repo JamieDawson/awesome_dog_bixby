@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Dog_search) {
+      accepted-inputs (breed)
+      local-endpoint ("dog_search.js")
+    }
+
+  }
+}
