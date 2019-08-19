@@ -1,0 +1,29 @@
+layout {
+  match: Dog_struct (this)
+  mode (Summary)
+
+    content {
+      section {
+        content {       
+        //  for-each (this.dog_image.url)
+        //   {
+        //    as (x) {
+        //     paragraph {
+        //     value("TEST HEREEEEE")
+        //    }
+        //   }
+        // }
+
+        image {
+          object-fit (Cover)
+          lightbox-enabled (false)
+          url("#{value(this.dog_image.url)}")
+        }
+
+
+      }
+    }
+  }
+}
+
+

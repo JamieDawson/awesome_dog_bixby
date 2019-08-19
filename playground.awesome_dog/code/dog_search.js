@@ -2,7 +2,6 @@ var http = require('http')
 var console = require('console')
 
 module.exports.function = function dog_search (breed) {
-
   var results = []
   var dogAPI = "https://dog.ceo/api/breeds/image/random"
   var template = {}
@@ -13,16 +12,16 @@ module.exports.function = function dog_search (breed) {
 console.log("outside")
 console.log(tmpResults)
 
-for (var i = 0; i < tmpResults.length; i++) {
+for (var i = 0; i < tmpResults.message[i].length; i++) {
   console.log("Inside!!!")
   template = ({
-    image_URL: {
-      url: tmpResults[i].message
-    },  
+    dog_image: {
+      url: tmpResults.message
+    }, 
   });
  results.push(template)
 }
 
-  console.log("done")
+  console.log(results)
   return results
 }

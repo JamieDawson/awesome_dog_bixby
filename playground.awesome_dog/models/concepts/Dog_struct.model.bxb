@@ -1,8 +1,6 @@
 structure (Dog_struct) {
   description (a struct for the dog json info)
 
-
-
   //dog photo
   property (dog_image) {
     type (image.Image)
