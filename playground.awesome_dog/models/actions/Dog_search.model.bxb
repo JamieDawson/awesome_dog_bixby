@@ -1,6 +1,7 @@
 action (Dog_search) {
   type(Search)
   description (A search for dogs)
+  //The things you'll send into the js file.
   
   collect {
     input (breed) {
@@ -12,5 +13,5 @@ action (Dog_search) {
       min (Optional) 
     }
   }
-  output (Dog_struct)
+  output (Dog_struct) //Returning dog_image for the views.
 }

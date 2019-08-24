@@ -1,0 +1,20 @@
+capsule-info {
+  display-name (Awesome Dog)
+  developer-name (Jamie Dawson)
+  description (Do you love dogs? Then check out Awesome Dog to generate photos of your favorite breeds.)
+  //privacy-policy-url (http://my-capsule.com/en/privacy-policy)
+  //terms-url (http://my-capsule.com/en/TandC)
+  search-keywords {
+    keyword (dogs)
+    keyword (animals)
+    keyword (puppies)
+  }
+  dispatch-name (Awesome Dog)
+  dispatch-aliases {
+    alias (Awesome Dogs)
+  }
+  action-bg-color (#FFC50A)
+  action-fg-color (#443D32)
+  android-app-id (myActionId)
+ icon-asset (images/icons/dog_img.png)
+}

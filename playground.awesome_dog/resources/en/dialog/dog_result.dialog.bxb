@@ -1,10 +1,10 @@
 dialog (Result) {
   match: Dog_struct (this)
   
-  if (size(this) == 1){
-        template("Here's a photo of a  ")
+  if (this.dog_subbreed != ''){
+        template("Here's a photo of a #{value(dog_subbreed)} #{value(dog_breed)} ")
   }
-  else (size(this) != 1){
-    template ("no")
+  if (this.dog_subbreed == ''){
+     template("Here's a photo of a #{value(dog_breed)} ")
   }
 }
