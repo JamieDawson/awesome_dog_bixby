@@ -1,0 +1,5 @@
+train (t-8y45u0fl9mfw3pyi2r4vy4dmy) {
+  utterance ("[g:Dog_search] Show me a photo of a (boxer)[v:Dog_text_one]")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566611676025)
+}

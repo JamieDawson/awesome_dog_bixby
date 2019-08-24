@@ -4,8 +4,12 @@ action (Dog_search) {
   
   collect {
     input (breed) {
-      type (Dog_text)
-      min (Optional) max (One)
+      type (Dog_text_one)
+      min (Optional) 
+    } 
+    input (subbreed) {
+      type (Dog_text_two)
+      min (Optional) 
     }
   }
   output (Dog_struct)

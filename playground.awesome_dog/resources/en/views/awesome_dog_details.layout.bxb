@@ -5,17 +5,15 @@ layout {
   content {
     section {
       content {
-        paragraph {
-          value ("testttttt")
-          style (Title_L)
-        }
 
-        image {
-          object-fit (Cover)
-          lightbox-enabled (false)
-          url("#{value(this.dog_image.url)}")
-        }
-
+       // if (exists(this.dog_image.url)) {
+          image {
+            object-fit (Contain)
+            lightbox-enabled (false)
+            aspect-ratio(1:1)
+            url("#{value(this.dog_image.url)}")
+          }
+      // }
       }
     }
   }

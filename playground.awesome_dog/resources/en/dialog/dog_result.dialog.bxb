@@ -1,0 +1,10 @@
+dialog (Result) {
+  match: Dog_struct (this)
+  
+  if (size(this) == 1){
+        template("Here's a photo of a  ")
+  }
+  else (size(this) != 1){
+    template ("no")
+  }
+}
