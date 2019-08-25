@@ -16,5 +16,5 @@ capsule-info {
   action-bg-color (#FFC50A)
   action-fg-color (#443D32)
   android-app-id (myActionId)
- icon-asset (images/icons/dog_img.png)
+ icon-asset (images/icons/dog_img_here.png)
 }

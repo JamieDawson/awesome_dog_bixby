@@ -1,0 +1,5 @@
+train (t-iyf70s6bb1zvjh0sisfbh1kni) {
+  utterance ("[g:Dog_search] display a random picture of a (boxer)[v:Dog_text_one]")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566690616282)
+}

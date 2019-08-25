@@ -1,5 +1,5 @@
 train (t-mhizh8pui7et7rh78dhek8s4h) {
-  utterance ([g:Dog_search] show me photo)
+  utterance ([g:Dog_search] show me photo of a dog)
   plan (Y2BiUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDgREIGaAYSAIA)
-  last-modified (1566611361113)
+  last-modified (1566686704613)
 }

@@ -1,6 +1,6 @@
 capsule {
-  id (playground.awesome_dog)
-  version (0.1.0)
+  id (jamie_dawson.awesome_dog)
+  version (0.1.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -12,7 +12,7 @@ capsule {
   }
 
    store-sections {
-    section (ArtAndLifestyle)
+    section (GamesAndFun)
   }
 
   capsule-imports {

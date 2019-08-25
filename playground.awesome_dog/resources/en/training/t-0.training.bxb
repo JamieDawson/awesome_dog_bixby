@@ -1,0 +1,10 @@
+train (t-0bayinm0mi9ciig8qo8mw96uu) {
+  utterance ("[g:Dog_search] any photos of a (golden)[v:Dog_text_two] (retriever)[v:Dog_text_one]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUwopKyvMZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1566690155023)
+}
+train (t-0pjpr4o1zxud0ue6e990j0lj0) {
+  utterance ([g:Dog_search] display a photo of a dog)
+  plan (Y2BiUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDgREIGaAYSAIA)
+  last-modified (1566689831241)
+}

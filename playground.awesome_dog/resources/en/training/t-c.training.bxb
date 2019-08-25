@@ -1,0 +1,10 @@
+train (t-c1hr7renq9zatsgly810xy1l8) {
+  utterance ("[g:Dog_search] get me a (golden)[v:Dog_text_two] (retriever)[v:Dog_text_one] picture")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUwopKyvMZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1566690177516)
+}
+train (t-c2vgx4h0678e69qhz40uf2f4o) {
+  utterance ("[g:Dog_search] got (boxer)[v:Dog_text_one] photos")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566690601930)
+}
