@@ -24,7 +24,7 @@ module.exports.function = function dog_search (breed, subbreed) {
     "rottweiler", //17
     "whippet", //18
     ];
-
+//
   var random_num = Math.floor(Math.random() * 18); //create number between 0-17
 
   if (!breed){
