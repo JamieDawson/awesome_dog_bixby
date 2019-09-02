@@ -1,10 +1,15 @@
 train (t-0bayinm0mi9ciig8qo8mw96uu) {
-  utterance ("[g:Dog_search] any photos of a (golden)[v:Dog_text_two] (retriever)[v:Dog_text_one]")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUwopKyvMZmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1566690155023)
+  utterance ("[g:Dog_struct] any photos of a (golden)[v:Subbreed] (retriever)[v:Breed]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1566955605673)
+}
+train (t-0kwgbf53zz2ign6mjuzrprk6a) {
+  utterance ("[g:Dog_struct] (golden)[v:Subbreed] (retriever)[v:Breed]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1566955626608)
 }
 train (t-0pjpr4o1zxud0ue6e990j0lj0) {
-  utterance ([g:Dog_search] display a photo of a dog)
-  plan (Y2BiUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDgREIGaAYSAIA)
-  last-modified (1566689831241)
+  utterance ([g:Dog_struct] display a photo of a dog)
+  plan (Y2BkUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLmEAAUYQAQA=)
+  last-modified (1567464199354)
 }

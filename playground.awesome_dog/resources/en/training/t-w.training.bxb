@@ -1,5 +1,5 @@
 train (t-wbvnk7es7hn2ykm105hxozkeu) {
-  utterance ("[g:Dog_search] show (boxer)[v:Dog_text_one] pics")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
-  last-modified (1566693258764)
+  utterance ("[g:Dog_search] show (retriever)[v:Breed] pics")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566956028580)
 }

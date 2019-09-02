@@ -1,11 +1,12 @@
 capsule {
-  id (jamie_dawson.awesome_dog)
+  id (playground.awesome_dog)
   version (0.1.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
   runtime-flags {
+    no-filtering-with-validation
     concepts-inherit-super-type-features
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs

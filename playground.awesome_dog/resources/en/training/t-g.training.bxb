@@ -1,5 +1,5 @@
 train (t-gg7gp7w26qcyfdswwavmt0npw) {
-  utterance ("[g:Dog_search] can i have a (boxer)[v:Dog_text_one] photo")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
-  last-modified (1566690506630)
+  utterance ("[g:Dog_search] can i have a (retriever)[v:Breed] photo")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566955854389)
 }

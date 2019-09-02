@@ -1,3 +1,6 @@
-text (Dog_text_two) {
+name (Breed) {
   description (A text concept for this project)
+  features {
+    transient
+  }
 }

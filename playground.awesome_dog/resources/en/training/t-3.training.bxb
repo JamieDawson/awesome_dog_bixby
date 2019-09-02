@@ -1,0 +1,5 @@
+train (t-3gsq9eg7iqenj6jez0ursdb0n) {
+  utterance ("[g:Dog_struct] I need (retriever)[v:Breed] pics")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
+  last-modified (1566955700456)
+}

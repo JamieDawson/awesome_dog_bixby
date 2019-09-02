@@ -1,5 +1,10 @@
+train (t-icqm19rrinngy4uaa5gr7i0i9) {
+  utterance ("[g:Dog_struct] i want a cute (corgi)[v:Breed] photo")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
+  last-modified (1566957359464)
+}
 train (t-iyf70s6bb1zvjh0sisfbh1kni) {
-  utterance ("[g:Dog_search] display a random picture of a (boxer)[v:Dog_text_one]")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQRmPkpLUipL4/LxUBiYGRiBmAJKMDCAA5QMA)
-  last-modified (1566690616282)
+  utterance ("[g:Dog_search] display a random picture of a (retriever)[v:Breed]")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCAA5QMA)
+  last-modified (1566955885158)
 }

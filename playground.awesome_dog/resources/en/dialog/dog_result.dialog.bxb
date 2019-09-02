@@ -4,7 +4,7 @@ dialog (Result) {
   if (this.dog_subbreed != ''){
         template("Here's a photo of a #{value(dog_subbreed)} #{value(dog_breed)} ")
   }
-  else-if (this.dog_subbreed == ''){
+  if (this.dog_subbreed == ''){
      template("Here's a photo of a #{value(dog_breed)} ")
   }
 }

@@ -5,11 +5,11 @@ action (Dog_search) {
   
   collect {
     input (breed) {
-      type (Dog_text_one)
+      type (Breed)
       min (Optional) 
     } 
     input (subbreed) {
-      type (Dog_text_two)
+      type (Subbreed)
       min (Optional) 
     }
   }

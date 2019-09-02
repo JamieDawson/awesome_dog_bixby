@@ -24,37 +24,51 @@ module.exports.function = function dog_search (breed, subbreed) {
     "rottweiler", //17
     "whippet", //18
     ];
-//
+
   var random_num = Math.floor(Math.random() * 18); //create number between 0-17
+  var dogAPI;
 
-  if (!breed){
+  if (!breed)
     breed = random_breed[random_num]
-  }
 
-  if (subbreed){
-    var dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random") 
-  }
+  if (!subbreed)
+    subbreed = '' //prevents it from being undefined.
 
-  if (!subbreed) {
-    if (breed) {
-      var dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")  
-      subbreed = ' '
+  var tmpResults;
+
+  try {
+    dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random")
+    tmpResults = http.getUrl(dogAPI, {format: 'text'});
+  }
+  catch(e) {
+    if (!tmpResults) {
+      console.log("subbred not working!!!!!!")
+      if (!breed)
+        breed = random_breed[random_num]
+      dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+      tmpResults = http.getUrl(dogAPI, {format: 'text'});
+      subbreed = " " //if we are here, subbreed is invalid and we don't want it
+    }
+    // Just provide an empty result
+    else if (breed) {  //if we are here that means breed
+      dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"); 
+      console.log("breed found")
+      return; // breed is always valid.
     }
   }
 
-  var template = {}
-  var tmpResults = http.getUrl(dogAPI, {format: 'text'});
+
   tmpResults = JSON.parse(tmpResults) 
 
-  for (var i = 0; i < tmpResults.message[i].length; i++) {
-    template = ({
-      dog_breed: breed,
-      dog_subbreed: subbreed,
-      dog_image: {
-        url: tmpResults.message
-      }, 
-    });
+  console.log("template here")
+  var template = ({
+    dog_breed: breed,
+    dog_subbreed: subbreed,
+    dog_image: {
+      url: tmpResults.message
+    }, 
+  });
+
   results.push(template)
-  }
   return results
 }
