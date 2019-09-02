@@ -1,5 +1,15 @@
+train (t-g2oeztk3kbssk5rm9s2bezzdb) {
+  utterance ("[g:Dog_struct] i want a photo of an adorable (golden)[v:Subbreed] (retriever)[v:Breed]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1567467649797)
+}
 train (t-gg7gp7w26qcyfdswwavmt0npw) {
   utterance ("[g:Dog_search] can i have a (retriever)[v:Breed] photo")
   plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCAA5QMA)
   last-modified (1566955854389)
+}
+train (t-gni2cyqw34zdn5fpnczo44pbh) {
+  utterance ("[g:Dog_struct] can i see a photo of a (retriever)[v:Breed]")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
+  last-modified (1567467787213)
 }

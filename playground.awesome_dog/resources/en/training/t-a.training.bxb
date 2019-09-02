@@ -1,0 +1,5 @@
+train (t-aoz2thki5wpihf6ghyfrsit3c) {
+  utterance ("[g:Dog_struct] display a picture of a cute (retriever)[v:Breed]")
+  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
+  last-modified (1567467838693)
+}

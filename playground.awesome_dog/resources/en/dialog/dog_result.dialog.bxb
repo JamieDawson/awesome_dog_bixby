@@ -2,9 +2,21 @@ dialog (Result) {
   match: Dog_struct (this)
   
   if (this.dog_subbreed != ''){
-        template("Here's a photo of a #{value(dog_subbreed)} #{value(dog_breed)} ")
+    choose (Random)
+    {
+        template("I found a photo of a #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Here's a cute photo of a #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Check out this beautiful #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Here's a picture of an adorable #{value(dog_subbreed)} #{value(dog_breed)}!")
+    }
   }
   if (this.dog_subbreed == ''){
-     template("Here's a photo of a #{value(dog_breed)} ")
+    choose (Random) {
+      template("I found a photo of a #{value(dog_breed)}!")
+      template("Here's a cute photo of a #{value(dog_breed)}!")
+      template("Check out this beautiful #{value(dog_breed)}!")
+      template("Here's a picture of an adorable #{value(dog_breed)}!")
+    }
+    
   }
 }
