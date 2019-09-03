@@ -3,8 +3,3 @@ train (t-v55nwox4alpu6ve25gtw1xzvo) {
   plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1567467681661)
 }
-train (t-v6pt1aeqwkhn8zx2iplkuun66) {
-  utterance ("[g:Dog_struct] display a photo of a (retriever)[v:Breed]")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
-  last-modified (1566956015173)
-}

@@ -3,3 +3,8 @@ train (t-barfdt3mcscf5q01wlzprp5ix) {
   plan (Y2BkUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLmEAAUYQAQA=)
   last-modified (1566938984177)
 }
+train (t-by9ezbqmq8qtsiti7p1zrpir7) {
+  utterance ("[g:Dog_struct] can i see a (golden)[v:Subbreed] (retriever)[v:Breed]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1567468538355)
+}
