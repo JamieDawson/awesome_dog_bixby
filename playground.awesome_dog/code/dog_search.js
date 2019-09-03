@@ -38,6 +38,7 @@ module.exports.function = function dog_search (breed, subbreed) {
 
   try {
     //Does subbreed + breed return a valid arguement?
+    console.log("Looking at subbreed + breed")
     dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random")
     tmpResults = http.getUrl(dogAPI, {format: 'text'});
   }
@@ -45,21 +46,28 @@ module.exports.function = function dog_search (breed, subbreed) {
     if (!tmpResults) { //subbreed + breed does not return valid arguement.
       subbreed = " "; //Set subbreed to empty since it's returns an invalid arguement!
       console.log("Subbreed does not exist!")
-
-      try { //Does breed alone return a valid arguement?
+      try {
+        //should subbreed be breed?
         dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
         tmpResults = http.getUrl(dogAPI, {format: 'text'});
       }
-      catch(e) {
-        if (!tmpResults) { //breed alone does not return a valid arguement
-          console.log("Breed does not exist!")
-          breed = random_breed[random_num]; //find a random breed
-          dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
-          tmpResults = http.getUrl(dogAPI, {format: 'text'});
+      catch(e){
+        if (!tmpResults) {
+          console.log("Subbreed should NOT be breed.")
+          try { //Does breed alone return a valid arguement?
+            dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+            tmpResults = http.getUrl(dogAPI, {format: 'text'});
+          }
+          catch(e) {
+            if (!tmpResults) { //breed alone does not return a valid arguement
+              console.log("Breed does not exist!")
+              breed = random_breed[random_num]; //find a random breed
+              dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+              tmpResults = http.getUrl(dogAPI, {format: 'text'});
+            }
+          }
         }
       }
-
-
     }
   }
 
