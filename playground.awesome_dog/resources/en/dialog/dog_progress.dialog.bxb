@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: Dog_struct 
+  template("Finding a dog!")
+}

@@ -8,15 +8,22 @@ dialog (Result) {
         template("Here's a cute photo of a #{value(dog_subbreed)} #{value(dog_breed)}!")
         template("Check out this beautiful #{value(dog_subbreed)} #{value(dog_breed)}!")
         template("Here's a picture of an adorable #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Here's a charming picture of a #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Check out this superb #{value(dog_subbreed)} #{value(dog_breed)}!")
+        template("Here's a elegant photo of a #{value(dog_subbreed)} #{value(dog_breed)}!")
     }
   }
+
   if (this.dog_subbreed == ''){
     choose (Random) {
       template("I found a photo of a #{value(dog_breed)}!")
       template("Here's a cute photo of a #{value(dog_breed)}!")
       template("Check out this beautiful #{value(dog_breed)}!")
       template("Here's a picture of an adorable #{value(dog_breed)}!")
+      template("Here's a charming picture of a #{value(dog_subbreed)} #{value(dog_breed)}!")
+      template("Check out this superb #{value(dog_subbreed)} #{value(dog_breed)}!")
+      template("Here's an elegant photo of a #{value(dog_breed)}!")
     }
-    
   }
+
 }
