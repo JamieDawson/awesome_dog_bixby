@@ -4,6 +4,5 @@ endpoints {
       accepted-inputs (breed, subbreed)
       local-endpoint ("dog_search.js")
     }
-
   }
 }
