@@ -13,3 +13,8 @@ train (t-gni2cyqw34zdn5fpnczo44pbh) {
   plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
   last-modified (1567467787213)
 }
+train (t-gykgbs7ed66d714ibwtvyujxk) {
+  utterance ("[g:Dog_search] i want a (golden)[v:Subbreed] (retriever)[v:Breed]")
+  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBMBFAQ==)
+  last-modified (1567804241211)
+}
