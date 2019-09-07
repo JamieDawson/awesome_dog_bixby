@@ -1,5 +1,0 @@
-train (t-v55nwox4alpu6ve25gtw1xzvo) {
-  utterance ("[g:Dog_struct] show me a photo of a cute (golden)[v:Subbreed] (retriever)[v:Breed]")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1567470640307)
-}
