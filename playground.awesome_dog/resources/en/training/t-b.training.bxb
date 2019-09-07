@@ -1,10 +1,10 @@
 train (t-barfdt3mcscf5q01wlzprp5ix) {
   utterance ([g:Dog_struct] show a photo of a dog)
-  plan (Y2BkUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLmEAAUYQAQA=)
-  last-modified (1566938984177)
+  plan (Y2BkUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sYQIARRAAA)
+  last-modified (1567820023562)
 }
 train (t-by9ezbqmq8qtsiti7p1zrpir7) {
   utterance ("[g:Dog_struct] can i see a (golden)[v:Subbreed] (retriever)[v:Breed]")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1567468538355)
+  plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1567820023583)
 }

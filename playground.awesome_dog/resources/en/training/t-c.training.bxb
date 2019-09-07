@@ -1,20 +1,20 @@
 train (t-c1hr7renq9zatsgly810xy1l8) {
   utterance ("[g:Dog_search] get me a (golden)[v:Subbreed] (retriever)[v:Breed] picture")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBMBFAQ==)
-  last-modified (1566955802903)
+  plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAFwUQA=)
+  last-modified (1567820023620)
 }
 train (t-c2vgx4h0678e69qhz40uf2f4o) {
   utterance ("[g:Dog_search] got (retriever)[v:Breed] photos")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCAA5QMA)
-  last-modified (1567465436334)
+  plan (Y2BmUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hYGJgRGIGYAkIwMIQPkA)
+  last-modified (1567820023661)
 }
 train (t-cb9d4tal8bunshf50968f94sz) {
   utterance ("[g:Dog_struct] show my friend a picture of a (golden)[v:Subbreed] (retriever)[v:Breed]")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1566955829327)
+  plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1567820023697)
 }
 train (t-cfwa9zeg7qusfzh5sh0tg5slq) {
   utterance ("[g:Dog_struct] can i see a pic of a (retriever)[v:Breed]")
-  plan (Y2BmUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBiYGRiBmAJKMDCDABMEA)
-  last-modified (1567468657834)
+  plan (Y2BmUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1567820023733)
 }

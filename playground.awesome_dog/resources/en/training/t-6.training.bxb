@@ -1,10 +1,10 @@
 train (t-6jea0vxtoxifvddohhh82kgjn) {
   utterance ("[g:Dog_struct] give me (golden)[v:Subbreed] (retriever)[v:Breed] pictures")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1566955724488)
+  plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1567820023499)
 }
 train (t-6s898j870beggpxgako58g4f1) {
   utterance ("[g:Dog_struct] got any (golden)[v:Subbreed] (retriever)[v:Breed] pics")
-  plan (Y2BhUCzISaxML8ovzUvRSyxPLc7PTY1PyU/Xc8lPjy8uKSpNLsGvJDWxKDmDQQaHEqei1NQUBnkcssGlSUlgBcwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1566955731936)
+  plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1567820023515)
 }
