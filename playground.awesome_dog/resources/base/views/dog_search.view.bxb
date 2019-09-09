@@ -1,0 +1,18 @@
+result-view{
+  match: Dog_struct(this)
+  
+  render{
+    layout{
+      section{
+        content{
+          image{
+            url("#{value(this.dog_image.url)}")
+            object-fit (Contain)
+            aspect-ratio(1:1)
+            lightbox-enabled (false)
+          }
+        }
+      }
+    }
+  }
+}
