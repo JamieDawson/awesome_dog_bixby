@@ -39,7 +39,7 @@ module.exports.function = function dog_search (breed, subbreed) {
   try {
     //Does subbreed + breed return a valid arguement?
     console.log("Looking at subbreed + breed")
-    dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random")
+    encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random"))
     tmpResults = http.getUrl(dogAPI, {format: 'text'});
   }
   catch(e) {
@@ -52,7 +52,7 @@ module.exports.function = function dog_search (breed, subbreed) {
   
 //should subbreed be breed?
   try {
-    dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+    encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
     tmpResults = http.getUrl(dogAPI, {format: 'text'});
   }
   catch(e){
@@ -64,14 +64,14 @@ module.exports.function = function dog_search (breed, subbreed) {
 
   //Does breed alone return a valid arguement?
   try { 
-    dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+    encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
     tmpResults = http.getUrl(dogAPI, {format: 'text'});
   }
   catch(e) {
     if (!tmpResults) { //breed alone does not return a valid arguement
       console.log("Breed does not exist!")
       breed = random_breed[random_num]; //find a random breed
-      dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+      encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
       tmpResults = http.getUrl(dogAPI, {format: 'text'});
     }
   }
@@ -103,7 +103,7 @@ module.exports.function = function dog_search (breed, subbreed) {
   try {
     //Does subbreed + breed return a valid arguement?
     console.log("Looking at subbreed + breed")
-    dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random")
+    encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/").concat(subbreed).concat("/images/random"))
     tmpResults = http.getUrl(dogAPI, {format: 'text'});
   }
   catch(e) {
@@ -112,21 +112,21 @@ module.exports.function = function dog_search (breed, subbreed) {
       console.log("Subbreed does not exist!")
       try {
         //should subbreed be breed?
-        dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+        encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
         tmpResults = http.getUrl(dogAPI, {format: 'text'});
       }
       catch(e){
         if (!tmpResults) {
           console.log("Subbreed should NOT be breed.")
           try { //Does breed alone return a valid arguement?
-            dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+            encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
             tmpResults = http.getUrl(dogAPI, {format: 'text'});
           }
           catch(e) {
             if (!tmpResults) { //breed alone does not return a valid arguement
               console.log("Breed does not exist!")
               breed = random_breed[random_num]; //find a random breed
-              dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random")
+              encodeURI(dogAPI = "https://dog.ceo/api/breed/".concat(breed).concat("/images/random"))
               tmpResults = http.getUrl(dogAPI, {format: 'text'});
             }
           }

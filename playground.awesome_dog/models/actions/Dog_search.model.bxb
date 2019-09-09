@@ -6,7 +6,12 @@ action (Dog_search) {
   collect {
     input (breed) {
       type (Breed)
-      min (Optional) 
+      min (Optional)
+      default-init {
+        intent {
+          goal: breedSelect
+        }
+      }
     } 
     input (subbreed) {
       type (Subbreed)

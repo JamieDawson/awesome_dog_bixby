@@ -1,0 +1,17 @@
+input-view {
+  match: Breed (this)
+
+  render {
+    selection-of (this) {
+      where-each (this) {
+        cell-card {
+          slot2 {
+            content {
+              primary ("#{value(this)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

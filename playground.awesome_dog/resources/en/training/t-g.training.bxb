@@ -1,3 +1,8 @@
+train (t-g0ypwegvvwo8o7wxxbdhjcf1c) {
+  utterance ([g:Dog_search] what dogs can i select from)
+  plan (Y2BiUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYGAEQgYoBpIA)
+  last-modified (1568001747687)
+}
 train (t-g2oeztk3kbssk5rm9s2bezzdb) {
   utterance ("[g:Dog_struct] i want a photo of an adorable (golden)[v:Subbreed] (retriever)[v:Breed]")
   plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
