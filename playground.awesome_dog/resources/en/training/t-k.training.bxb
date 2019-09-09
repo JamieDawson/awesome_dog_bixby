@@ -1,3 +1,8 @@
+train (t-krg2qfcej551xngs48je065sh) {
+  utterance ([g:Dog_search] display breeds of dogs)
+  plan (Y2BiUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYGAEQgYoBpIA)
+  last-modified (1568002467971)
+}
 train (t-kxtviwso3xgdxg5tnmo46ogqi) {
   utterance ("[g:Dog_struct] give me (retriever)[v:Breed] pictures")
   plan (Y2BmUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hYGJgRGIGYAkIwMIMEEwAA==)

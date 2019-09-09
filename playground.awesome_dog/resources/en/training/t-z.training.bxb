@@ -1,3 +1,8 @@
+train (t-zcxagcnjg2nszc9cg8z05ea7j) {
+  utterance ([g:Dog_search] show me breeds of dogs)
+  plan (Y2BiUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYGAEQgYoBpIA)
+  last-modified (1568002360756)
+}
 train (t-ztxo8yz8dcqp1369x0r2t0sxt) {
   utterance ("[g:Dog_struct] show me a (golden)[v:Subbreed] (retriever)[v:Breed]")
   plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)

@@ -2,6 +2,6 @@ hints {
   uncategorized {
     hint(With Awesome Dog, I want a photo of a golden retriever.)
     hint (Ask Awesome Dog for a photo of a Boxer.)
-    hint (In Awesome Dog, display a photo of a dog.) 
+    hint (In Awesome Dog, show me a list of dogs.) 
   }
 }

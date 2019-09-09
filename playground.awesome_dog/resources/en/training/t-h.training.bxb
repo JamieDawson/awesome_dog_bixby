@@ -3,3 +3,8 @@ train (t-hlvutqe0ad7cyjv9t5wlnt1c3) {
   plan (Y2BhUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hUERp3xwaVISWAkzAyMDE5BkANIgCAEgPlgUAA==)
   last-modified (1567820023824)
 }
+train (t-hoz5r6ejs4yj5u4gez73mrsl7) {
+  utterance ([g:Dog_search] show me a list of dogs)
+  plan (Y2BiUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYGAEQgYoBpIA)
+  last-modified (1568002495867)
+}
